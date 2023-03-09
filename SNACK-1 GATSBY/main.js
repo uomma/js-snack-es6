@@ -6,7 +6,7 @@ const invitati =[ 'Brad Pitt', 'Johnny Depp',  'Lady Gaga', 'Cristiano Ronaldo',
 
 const nuovaListaInvitati = [];
 
-invitati.forEach((Element, i, array) => {
+invitati.forEach((Element, i, ) => {
 
     const dati = {
         nomeTavolo: 'tavolo VIP',
