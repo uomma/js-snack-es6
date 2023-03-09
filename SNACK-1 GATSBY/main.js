@@ -1,62 +1,19 @@
 'use strict'
-let i = 1;
 
-const invitati = [
-    {
-        nome: 'Bread Pitt',
-        tavolo: 'TavoloVIP',
 
-    },
-    {
-        nome: 'Jhonny Deep',
-        tavolo: 'TavoloVIP',
+const invitati =[ 'Brad Pitt', 'Johnny Depp',  'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni', 'Fedez', 'George Clooney', 'Amal Clooney', 'Maneskin'] 
+    
 
-    },
-    {
-        nome: 'Lady Gaga',
-        tavolo: 'TavoloVIP',
+const nuovaListaInvitati = [];
 
-    },
-    {
-        nome: 'Cristiano Ronaldo',
-        tavolo: 'TavoloVIP',
+invitati.forEach((Element, i, array) => {
 
-    },
-    {
-        nome: 'Georgina Rodriguez',
-        tavolo: 'TavoloVIP',
-
-    },
-    {
-        nome: 'Chiara Ferragni',
-        tavolo: 'TavoloVIP',
-
-    },
-    {
-        nome: 'Fedez',
-        tavolo: 'TavoloVIP',
-
-    },
-
-    {
-        nome: 'George Clooney',
-        tavolo: 'TavoloVIP',
-
-    },
-    {
-        nome: 'Amal Clooney',
-        tavolo: 'TavoloVIP',
-
-    },
-    {
-        nome: 'Maneskin',
-        tavolo: 'TavoloVIP',
-
+    const dati = {
+        nomeTavolo: 'tavolo VIP',
+        opsite : Element,
+        seat : i+1
     }
-];
-/* console.log(invitati)
-*/
-const seat = 'il tuo posto a tavola è: ';
-invitati.forEach((Element, index) => {
-    console.log(Element, seat, index);
+    nuovaListaInvitati.push(dati);
 });
+
+console.log(nuovaListaInvitati);
