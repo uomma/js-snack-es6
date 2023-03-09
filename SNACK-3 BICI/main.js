@@ -31,4 +31,3 @@ const pesominore =(Math.min(
 
 
 console.log(`il peso minore è ${pesominore} kg ed è di  `)
-
